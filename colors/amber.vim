@@ -67,13 +67,13 @@ if &background == "dark" " set background=dark
   hi Operator ctermfg=208 ctermbg=none cterm=bold guifg=#ff8700 guibg=#000000 gui=bold
   hi Keyword ctermfg=208 ctermbg=none cterm=bold guifg=#ff8700 guibg=#000000 gui=bold
   hi Exception ctermfg=208 ctermbg=none cterm=bold guifg=#ff8700 guibg=#000000 gui=bold
-  hi PreProc ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
+  hi PreProc ctermfg=208 ctermbg=none cterm=bold guifg=#ff8700 guibg=#000000 gui=bold
   hi Include ctermfg=208 ctermbg=none cterm=bold guifg=#ff8700 guibg=#000000 gui=bold
   hi Define ctermfg=208 ctermbg=none cterm=bold guifg=#ff8700 guibg=#000000 gui=bold
   hi Macro ctermfg=208 ctermbg=none cterm=bold guifg=#ff8700 guibg=#000000 gui=bold
   hi PreCondit ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
-  hi Type ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
-  hi StorageClass ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
+  hi Type ctermfg=208 ctermbg=none cterm=bold guifg=#ff8700 guibg=#000000 gui=bold
+  hi StorageClass ctermfg=208 ctermbg=none cterm=bold guifg=#ff8700 guibg=#000000 gui=bold
   hi Structure ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi Typedef ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi Special ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
@@ -154,13 +154,13 @@ else
   hi Operator ctermfg=0 ctermbg=208 cterm=bold guifg=#000000 guibg=#ff8700 gui=bold
   hi Keyword ctermfg=0 ctermbg=208 cterm=bold guifg=#000000 guibg=#ff8700 gui=bold
   hi Exception ctermfg=0 ctermbg=208 cterm=bold guifg=#000000 guibg=#ff8700 gui=bold
-  hi PreProc ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
+  hi PreProc ctermfg=0 ctermbg=208 cterm=bold guifg=#000000 guibg=#ff8700 gui=bold
   hi Include ctermfg=0 ctermbg=208 cterm=bold guifg=#000000 guibg=#ff8700 gui=bold
   hi Define ctermfg=0 ctermbg=208 cterm=bold guifg=#000000 guibg=#ff8700 gui=bold
   hi Macro ctermfg=234 ctermbg=208 cterm=bold guifg=#1c1c1c guibg=#ff8700 gui=bold
   hi PreCondit ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
-  hi Type ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
-  hi StorageClass ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
+  hi Type ctermfg=0 ctermbg=208 cterm=bold guifg=#000000 guibg=#ff8700 gui=bold
+  hi StorageClass ctermfg=0 ctermbg=208 cterm=bold guifg=#000000 guibg=#ff8700 gui=bold
   hi Structure ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi Typedef ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi Special ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
