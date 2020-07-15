@@ -1,6 +1,6 @@
 " Glowing amber color scheme
 " Maintainer:  Charlie Gunyon <charles.gunyon@gmail.com>
-" Version:     0.1
+" Version:     0.2
 " License:     Vim license, see :help 'license'
 
 if version > 580
@@ -18,8 +18,8 @@ if &background == "dark" " set background=dark
   hi ColorColumn ctermfg=233 ctermbg=214 cterm=reverse guifg=#121212 guibg=#ffaf00 gui=reverse
   hi Cursor ctermfg=208 ctermbg=none cterm=reverse guifg=#ff8700 guibg=#000000 gui=reverse
   hi CursorIM ctermfg=208 ctermbg=none cterm=reverse guifg=#ff8700 guibg=#000000 gui=reverse
-  hi CursorColumn ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
-  hi CursorLine ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
+  hi CursorColumn ctermfg=233 ctermbg=214 cterm=reverse guifg=#121212 guibg=#ffaf00 gui=reverse
+  hi CursorLine ctermfg=233 ctermbg=214 cterm=reverse guifg=#121212 guibg=#ffaf00 gui=reverse
   hi CursorLineNr ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi Directory ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi ErrorMsg ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
@@ -105,8 +105,8 @@ else
   hi ColorColumn ctermfg=166 ctermbg=233 cterm=reverse guifg=#d75f00 guibg=#121212 gui=reverse
   hi Cursor ctermfg=0 ctermbg=208 cterm=reverse guifg=#000000 guibg=#ff8700 gui=reverse
   hi CursorIM ctermfg=0 ctermbg=208 cterm=reverse guifg=#000000 guibg=#ff8700 gui=reverse
-  hi CursorColumn ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
-  hi CursorLine ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
+  hi CursorColumn ctermfg=166 ctermbg=233 cterm=reverse guifg=#d75f00 guibg=#121212 gui=reverse
+  hi CursorLine ctermfg=166 ctermbg=233 cterm=reverse guifg=#d75f00 guibg=#121212 gui=reverse
   hi CursorLineNr ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi Directory ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi ErrorMsg ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
