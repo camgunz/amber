@@ -25,6 +25,7 @@ if &background == "dark" " set background=dark
   hi ErrorMsg ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi FoldColumn ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi Folded ctermfg=94 ctermbg=233 cterm=none guifg=#875f00 guibg=#121212 gui=none
+  hi Conceal ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi IncSearch ctermfg=none ctermbg=166 cterm=none guifg=#000000 guibg=#d75f00 gui=none
   hi LineNr ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi MatchParen ctermfg=234 ctermbg=214 cterm=bold,reverse guifg=#1c1c1c guibg=#ffaf00 gui=bold,reverse
@@ -32,7 +33,7 @@ if &background == "dark" " set background=dark
   hi MoreMsg ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi Pmenu ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi PmenuSbar ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
-  hi PmenuSel ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
+  hi PmenuSel ctermfg=208 ctermbg=233 cterm=reverse guifg=#ff8700 guibg=#121212 gui=reverse
   hi PmenuThumb ctermfg=208 ctermbg=none cterm=reverse guifg=#ff8700 guibg=#000000 gui=reverse
   hi Question ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi Search ctermfg=none ctermbg=166 cterm=none guifg=#000000 guibg=#d75f00 gui=none
