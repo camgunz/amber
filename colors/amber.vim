@@ -113,6 +113,7 @@ else
   hi ErrorMsg ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi FoldColumn ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi Folded ctermfg=233 ctermbg=94 cterm=none guifg=#121212 guibg=#875f00 gui=none
+  hi Conceal ctermfg=208 ctermbg=none cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi IncSearch ctermfg=0 ctermbg=166 cterm=none guifg=#000000 guibg=#d75f00 gui=none
   hi LineNr ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi MatchParen ctermfg=214 ctermbg=234 cterm=bold,reverse guifg=#ffaf00 guibg=#1c1c1c gui=bold,reverse
@@ -120,7 +121,7 @@ else
   hi MoreMsg ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi Pmenu ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi PmenuSbar ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
-  hi PmenuSel ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
+  hi PmenuSel ctermfg=0 ctermbg=208 cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi PmenuThumb ctermfg=0 ctermbg=208 cterm=reverse guifg=#000000 guibg=#ff8700 gui=reverse
   hi Question ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi Search ctermfg=0 ctermbg=166 cterm=none guifg=#000000 guibg=#d75f00 gui=none
