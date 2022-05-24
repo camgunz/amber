@@ -17,23 +17,24 @@ if &background == "dark" " set background=dark
   hi NonText ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi ColorColumn ctermfg=233 ctermbg=214 cterm=reverse guifg=#121212 guibg=#ffaf00 gui=reverse
   hi Cursor ctermfg=208 ctermbg=none cterm=reverse guifg=#ff8700 guibg=#000000 gui=reverse
-  hi CursorIM ctermfg=208 ctermbg=none cterm=reverse guifg=#ff8700 guibg=#000000 gui=reverse
   hi CursorColumn ctermfg=233 ctermbg=214 cterm=reverse guifg=#121212 guibg=#ffaf00 gui=reverse
+  hi CursorIM ctermfg=208 ctermbg=none cterm=reverse guifg=#ff8700 guibg=#000000 gui=reverse
   hi CursorLine ctermfg=233 ctermbg=214 cterm=reverse guifg=#121212 guibg=#ffaf00 gui=reverse
   hi CursorLineNr ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi Directory ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi ErrorMsg ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi FoldColumn ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi Folded ctermfg=94 ctermbg=233 cterm=none guifg=#875f00 guibg=#121212 gui=none
+  hi Conceal ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi IncSearch ctermfg=none ctermbg=166 cterm=none guifg=#000000 guibg=#d75f00 gui=none
   hi LineNr ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi MatchParen ctermfg=234 ctermbg=214 cterm=bold,reverse guifg=#1c1c1c guibg=#ffaf00 gui=bold,reverse
   hi ModeMsg ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi MoreMsg ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
-  hi Pmenu ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
-  hi PmenuSbar ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
-  hi PmenuSel ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
-  hi PmenuThumb ctermfg=208 ctermbg=none cterm=reverse guifg=#ff8700 guibg=#000000 gui=reverse
+  hi Pmenu ctermfg=166 ctermbg=234 cterm=none guifg=#d75f00 guibg=#1c1c1c gui=none
+  hi PmenuSel ctermfg=166 ctermbg=234 cterm=reverse guifg=#d75f00 guibg=#1c1c1c gui=reverse
+  hi PmenuSbar ctermfg=52 ctermbg=233 cterm=none guifg=#5f0000 guibg=#121212 gui=none
+  hi PmenuThumb ctermfg=208 ctermbg=124 cterm=reverse guifg=#ff8700 guibg=#af0000 gui=reverse
   hi Question ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi Search ctermfg=none ctermbg=166 cterm=none guifg=#000000 guibg=#d75f00 gui=none
   hi SignColumn ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
@@ -104,23 +105,24 @@ else
   hi NonText ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi ColorColumn ctermfg=166 ctermbg=233 cterm=reverse guifg=#d75f00 guibg=#121212 gui=reverse
   hi Cursor ctermfg=0 ctermbg=208 cterm=reverse guifg=#000000 guibg=#ff8700 gui=reverse
-  hi CursorIM ctermfg=0 ctermbg=208 cterm=reverse guifg=#000000 guibg=#ff8700 gui=reverse
   hi CursorColumn ctermfg=166 ctermbg=233 cterm=reverse guifg=#d75f00 guibg=#121212 gui=reverse
+  hi CursorIM ctermfg=0 ctermbg=208 cterm=reverse guifg=#000000 guibg=#ff8700 gui=reverse
   hi CursorLine ctermfg=166 ctermbg=233 cterm=reverse guifg=#d75f00 guibg=#121212 gui=reverse
   hi CursorLineNr ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi Directory ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi ErrorMsg ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi FoldColumn ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi Folded ctermfg=233 ctermbg=94 cterm=none guifg=#121212 guibg=#875f00 gui=none
+  hi Conceal ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi IncSearch ctermfg=0 ctermbg=166 cterm=none guifg=#000000 guibg=#d75f00 gui=none
   hi LineNr ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi MatchParen ctermfg=214 ctermbg=234 cterm=bold,reverse guifg=#ffaf00 guibg=#1c1c1c gui=bold,reverse
   hi ModeMsg ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi MoreMsg ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
-  hi Pmenu ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
-  hi PmenuSbar ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
-  hi PmenuSel ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
-  hi PmenuThumb ctermfg=0 ctermbg=208 cterm=reverse guifg=#000000 guibg=#ff8700 gui=reverse
+  hi Pmenu ctermfg=234 ctermbg=166 cterm=none guifg=#1c1c1c guibg=#d75f00 gui=none
+  hi PmenuSel ctermfg=234 ctermbg=166 cterm=reverse guifg=#1c1c1c guibg=#d75f00 gui=reverse
+  hi PmenuSbar ctermfg=233 ctermbg=52 cterm=none guifg=#121212 guibg=#5f0000 gui=none
+  hi PmenuThumb ctermfg=124 ctermbg=208 cterm=reverse guifg=#af0000 guibg=#ff8700 gui=reverse
   hi Question ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
   hi Search ctermfg=0 ctermbg=166 cterm=none guifg=#000000 guibg=#d75f00 gui=none
   hi SignColumn ctermfg=0 ctermbg=208 cterm=none guifg=#000000 guibg=#ff8700 gui=none
